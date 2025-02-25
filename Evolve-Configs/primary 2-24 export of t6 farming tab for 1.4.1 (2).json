@@ -368,7 +368,7 @@
         "type1": "ResetType",
         "arg1": "ascension",
         "type2": "ResetType",
-        "arg2": "witch_ascension",
+        "arg2": "terraform",
         "cmp": "OR",
         "ret": "sports"
       },
@@ -9283,6 +9283,14 @@
         "arg2": true,
         "cmp": "==",
         "ret": 50
+      },
+      {
+        "type1": "Other",
+        "arg1": "rname",
+        "type2": "String",
+        "arg2": "Godkillers",
+        "cmp": "==",
+        "ret": 10
       }
     ],
     "arpa_m_railway": [
@@ -27065,12 +27073,12 @@
     ],
     "imitateRace": [
       {
-        "type1": "ResetType",
-        "arg1": "demonic",
-        "type2": "ResetType",
-        "arg2": "apotheosis",
-        "cmp": "OR",
-        "ret": "dwarf"
+        "type1": "Boolean",
+        "arg1": true,
+        "type2": "Boolean",
+        "arg2": true,
+        "cmp": "==",
+        "ret": "dracnid"
       },
       {
         "type1": "PlanetTrait",
@@ -27138,35 +27146,19 @@
       },
       {
         "type1": "Challenge",
-        "arg1": "orbit_decay",
+        "arg1": "emfield",
         "type2": "Boolean",
         "arg2": true,
         "cmp": "==",
-        "ret": "unicorn"
-      },
-      {
-        "type1": "ResetType",
-        "arg1": "ascension",
-        "type2": "Boolean",
-        "arg2": true,
-        "cmp": "==",
-        "ret": "unicorn"
+        "ret": "salamander"
       },
       {
         "type1": "Challenge",
         "arg1": "orbit_decay",
-        "type2": "Challenge",
-        "arg2": "no_craft",
-        "cmp": "AND",
-        "ret": "dwarf"
-      },
-      {
-        "type1": "ResetType",
-        "arg1": "ascension",
-        "type2": "Challenge",
-        "arg2": "no_craft",
-        "cmp": "AND",
-        "ret": "dwarf"
+        "type2": "Boolean",
+        "arg2": true,
+        "cmp": "==",
+        "ret": "unicorn"
       },
       {
         "type1": "ResetType",
@@ -27175,6 +27167,22 @@
         "arg2": "retire",
         "cmp": "OR",
         "ret": "troll"
+      },
+      {
+        "type1": "ResetType",
+        "arg1": "ascension",
+        "type2": "Boolean",
+        "arg2": true,
+        "cmp": "==",
+        "ret": "unicorn"
+      },
+      {
+        "type1": "ResetType",
+        "arg1": "demonic",
+        "type2": "Boolean",
+        "arg2": true,
+        "cmp": "==",
+        "ret": "salamander"
       }
     ],
     "res_trade_buy_Oil": [
@@ -27220,6 +27228,14 @@
         "type2": "Boolean",
         "arg2": true,
         "cmp": "==",
+        "ret": false
+      },
+      {
+        "type1": "Challenge",
+        "arg1": "orbit_decay",
+        "type2": "Eval",
+        "arg2": "Math.PI",
+        "cmp": "AND",
         "ret": false
       },
       {
@@ -27276,14 +27292,6 @@
         "type2": "BuildingUnlocked",
         "arg2": "space-atmo_terraformer",
         "cmp": "AND!",
-        "ret": true
-      },
-      {
-        "type1": "Challenge",
-        "arg1": "orbit_decay",
-        "type2": "String",
-        "arg2": "todo",
-        "cmp": "AND",
         "ret": true
       }
     ],
@@ -28803,6 +28811,14 @@
         "arg2": 100,
         "cmp": ">=",
         "ret": 3
+      },
+      {
+        "type1": "ResetType",
+        "arg1": "demonic",
+        "type2": "Universe",
+        "arg2": "micro",
+        "cmp": "AND!",
+        "ret": 0.5
       },
       {
         "type1": "ResetType",
@@ -37704,7 +37720,7 @@
       "actionType": "build",
       "actionId": "galaxy-foothold",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 60,
@@ -37726,7 +37742,7 @@
       "actionType": "research",
       "actionId": "tech-metaphysics",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 62,
@@ -37759,7 +37775,7 @@
       "actionType": "build",
       "actionId": "galaxy-consulate",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 65,
@@ -37781,7 +37797,7 @@
       "actionType": "build",
       "actionId": "galaxy-foothold",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 67,
@@ -37792,7 +37808,7 @@
       "actionType": "build",
       "actionId": "galaxy-scavenger",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 68,
@@ -37803,7 +37819,7 @@
       "actionType": "research",
       "actionId": "tech-orichalcum_analysis",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 69,
@@ -37814,7 +37830,7 @@
       "actionType": "research",
       "actionId": "tech-orichalcum_capacitor",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 70,
@@ -37825,7 +37841,7 @@
       "actionType": "research",
       "actionId": "tech-scarletite",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 71,
@@ -37836,7 +37852,7 @@
       "actionType": "build",
       "actionId": "portal-archaeology",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 72,
@@ -37858,7 +37874,7 @@
       "actionType": "build",
       "actionId": "interstellar-stellar_forge",
       "actionCount": 12,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 74,
@@ -37869,7 +37885,7 @@
       "actionType": "build",
       "actionId": "galaxy-excavator",
       "actionCount": 9,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 75,
@@ -37924,7 +37940,7 @@
       "actionType": "build",
       "actionId": "portal-vault",
       "actionCount": 2,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 80,
@@ -38023,7 +38039,7 @@
       "actionType": "research",
       "actionId": "tech-genesis_ship",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 89,
@@ -38287,7 +38303,7 @@
       "actionType": "build",
       "actionId": "galaxy-excavator",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 112,
@@ -38606,7 +38622,7 @@
       "actionType": "build",
       "actionId": "galaxy-freighter",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 141,
@@ -38628,7 +38644,7 @@
       "actionType": "build",
       "actionId": "interstellar-sirius_mission",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 143,
@@ -38639,7 +38655,7 @@
       "actionType": "build",
       "actionId": "interstellar-sirius_b",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 144,
@@ -38650,7 +38666,7 @@
       "actionType": "build",
       "actionId": "interstellar-space_elevator",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 145,
@@ -38661,7 +38677,7 @@
       "actionType": "research",
       "actionId": "tech-tech_ascension",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 146,
@@ -38672,7 +38688,7 @@
       "actionType": "research",
       "actionId": "tech-tech_ascension",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 147,
@@ -38683,7 +38699,7 @@
       "actionType": "build",
       "actionId": "interstellar-gravity_dome",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 148,
@@ -38694,7 +38710,7 @@
       "actionType": "build",
       "actionId": "interstellar-thermal_collector",
       "actionCount": 67,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 149,
@@ -38716,7 +38732,7 @@
       "actionType": "build",
       "actionId": "galaxy-vitreloy_plant",
       "actionCount": 4,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 151,
@@ -38738,7 +38754,7 @@
       "actionType": "build",
       "actionId": "galaxy-foothold",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 153,
@@ -38771,7 +38787,7 @@
       "actionType": "build",
       "actionId": "galaxy-vitreloy_plant",
       "actionCount": 4,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 156,
@@ -38859,7 +38875,7 @@
       "actionType": "research",
       "actionId": "tech-xeno_gift",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 164,
@@ -38892,7 +38908,7 @@
       "actionType": "research",
       "actionId": "tech-gauss_rifles",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 167,
@@ -38925,7 +38941,7 @@
       "actionType": "research",
       "actionId": "tech-nanoweave",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 170,
@@ -39244,7 +39260,7 @@
       "actionType": "research",
       "actionId": "tech-transmutation",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 199,
@@ -39365,7 +39381,7 @@
       "actionType": "build",
       "actionId": "space-fabrication",
       "actionCount": 32,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 210,
@@ -39398,7 +39414,7 @@
       "actionType": "build",
       "actionId": "space-living_quarters",
       "actionCount": 43,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 213,
@@ -39409,7 +39425,7 @@
       "actionType": "build",
       "actionId": "space-spaceport",
       "actionCount": 27,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 214,
@@ -39420,7 +39436,7 @@
       "actionType": "build",
       "actionId": "space-fabrication",
       "actionCount": 33,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 215,
@@ -39431,7 +39447,7 @@
       "actionType": "build",
       "actionId": "space-spaceport",
       "actionCount": 28,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 216,
@@ -39497,7 +39513,7 @@
       "actionType": "arpa",
       "actionId": "arpalhc",
       "actionCount": 10,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 222,
@@ -40036,7 +40052,7 @@
       "actionType": "build",
       "actionId": "space-fabrication",
       "actionCount": 35,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 271,
@@ -40102,7 +40118,7 @@
       "actionType": "build",
       "actionId": "space-fabrication",
       "actionCount": 52,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 277,
@@ -40124,7 +40140,7 @@
       "actionType": "build",
       "actionId": "city-boot_camp",
       "actionCount": 40,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 279,
@@ -40421,7 +40437,7 @@
       "actionType": "build",
       "actionId": "space-living_quarters",
       "actionCount": 37,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 306,
@@ -40443,7 +40459,7 @@
       "actionType": "build",
       "actionId": "galaxy-frigate_ship",
       "actionCount": 2,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 308,
@@ -40454,7 +40470,7 @@
       "actionType": "build",
       "actionId": "city-wardenclyffe",
       "actionCount": 64,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 309,
@@ -40487,7 +40503,7 @@
       "actionType": "build",
       "actionId": "galaxy-dreadnought",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 312,
@@ -40531,7 +40547,7 @@
       "actionType": "build",
       "actionId": "galaxy-corvette_ship",
       "actionCount": 1,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 316,
@@ -40542,7 +40558,7 @@
       "actionType": "build",
       "actionId": "galaxy-cruiser_ship",
       "actionCount": 2,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 317,
@@ -40608,7 +40624,7 @@
       "actionType": "build",
       "actionId": "interstellar-stellar_forge",
       "actionCount": 25,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 323,
@@ -40619,7 +40635,7 @@
       "actionType": "build",
       "actionId": "portal-soul_attractor",
       "actionCount": 9,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 324,
@@ -40630,7 +40646,7 @@
       "actionType": "build",
       "actionId": "portal-gun_emplacement",
       "actionCount": 6,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 325,
@@ -40641,7 +40657,7 @@
       "actionType": "build",
       "actionId": "interstellar-stellar_forge",
       "actionCount": 53,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 326,
@@ -40652,7 +40668,7 @@
       "actionType": "build",
       "actionId": "space-fabrication",
       "actionCount": 53,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 327,
@@ -40663,7 +40679,7 @@
       "actionType": "build",
       "actionId": "portal-arcology",
       "actionCount": 30,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 328,
@@ -40674,7 +40690,7 @@
       "actionType": "build",
       "actionId": "space-biodome",
       "actionCount": 60,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 332,
@@ -40795,7 +40811,7 @@
       "actionType": "build",
       "actionId": "space-red_factory",
       "actionCount": 27,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 343,
@@ -40806,7 +40822,7 @@
       "actionType": "research",
       "actionId": "tech-stellar_smelting",
       "actionCount": 0,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 344,
@@ -40817,7 +40833,7 @@
       "actionType": "build",
       "actionId": "galaxy-bolognium_ship",
       "actionCount": 31,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 345,
@@ -40883,7 +40899,7 @@
       "actionType": "build",
       "actionId": "interstellar-stellar_forge",
       "actionCount": 8,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 351,
@@ -40894,7 +40910,7 @@
       "actionType": "build",
       "actionId": "interstellar-int_factory",
       "actionCount": 8,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 352,
@@ -40927,7 +40943,7 @@
       "actionType": "build",
       "actionId": "portal-gun_emplacement",
       "actionCount": 5,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 355,
@@ -40938,7 +40954,7 @@
       "actionType": "arpa",
       "actionId": "arpastock_exchange",
       "actionCount": 65,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 356,
@@ -40949,7 +40965,7 @@
       "actionType": "build",
       "actionId": "portal-infernite_mine",
       "actionCount": 8,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 357,
@@ -40993,7 +41009,7 @@
       "actionType": "build",
       "actionId": "galaxy-resort",
       "actionCount": 4,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 362,
@@ -41026,7 +41042,7 @@
       "actionType": "build",
       "actionId": "portal-sensor_drone",
       "actionCount": 39,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 365,
@@ -41037,7 +41053,7 @@
       "actionType": "build",
       "actionId": "galaxy-bolognium_ship",
       "actionCount": 35,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 366,
@@ -41059,7 +41075,7 @@
       "actionType": "build",
       "actionId": "portal-attractor",
       "actionCount": 91,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 368,
@@ -41070,7 +41086,7 @@
       "actionType": "build",
       "actionId": "interstellar-stellar_forge",
       "actionCount": 35,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 369,
@@ -41081,7 +41097,7 @@
       "actionType": "build",
       "actionId": "space-fabrication",
       "actionCount": 44,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 370,
@@ -41092,7 +41108,7 @@
       "actionType": "build",
       "actionId": "portal-soul_attractor",
       "actionCount": 31,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 371,
@@ -41103,7 +41119,7 @@
       "actionType": "build",
       "actionId": "portal-gun_emplacement",
       "actionCount": 26,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 372,
@@ -41114,7 +41130,7 @@
       "actionType": "build",
       "actionId": "portal-attractor",
       "actionCount": 78,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 373,
@@ -41125,7 +41141,7 @@
       "actionType": "build",
       "actionId": "portal-harbor",
       "actionCount": 15,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 374,
@@ -41136,7 +41152,7 @@
       "actionType": "build",
       "actionId": "space-biodome",
       "actionCount": 35,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 375,
@@ -41205,8 +41221,19 @@
       "complete": false
     },
     {
-      "seq": 381,
+      "seq": 385,
       "priority": 379,
+      "requirementType": "ResearchUnlocked",
+      "requirementId": "tech-ethereal_weapons",
+      "requirementCount": 1,
+      "actionType": "research",
+      "actionId": "tech-ethereal_weapons",
+      "actionCount": 0,
+      "complete": false
+    },
+    {
+      "seq": 381,
+      "priority": 380,
       "requirementType": "ResearchUnlocked",
       "requirementId": "tech-elerium_cannon",
       "requirementCount": 1,
@@ -41217,7 +41244,7 @@
     },
     {
       "seq": 361,
-      "priority": 380,
+      "priority": 381,
       "requirementType": "BuildingCount",
       "requirementId": "city-banquet",
       "requirementCount": 1,
@@ -41228,29 +41255,29 @@
     },
     {
       "seq": 382,
-      "priority": 381,
+      "priority": 382,
       "requirementType": "BuildingCount",
       "requirementId": "portal-purifier",
       "requirementCount": 1,
       "actionType": "build",
       "actionId": "interstellar-int_factory",
       "actionCount": 24,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 383,
-      "priority": 382,
+      "priority": 383,
       "requirementType": "chain",
       "requirementId": "",
       "requirementCount": 0,
       "actionType": "build",
       "actionId": "space-red_factory",
       "actionCount": 33,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 388,
-      "priority": 383,
+      "priority": 384,
       "requirementType": "ResearchUnlocked",
       "requirementId": "tech-elerium_cannon",
       "requirementCount": 1,
@@ -41261,29 +41288,29 @@
     },
     {
       "seq": 329,
-      "priority": 384,
+      "priority": 385,
       "requirementType": "BuildingCount",
       "requirementId": "portal-mechbay",
       "requirementCount": 20,
       "actionType": "build",
       "actionId": "portal-soul_attractor",
       "actionCount": 40,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 330,
-      "priority": 385,
+      "priority": 386,
       "requirementType": "chain",
       "requirementId": "",
       "requirementCount": 0,
       "actionType": "build",
       "actionId": "portal-gun_emplacement",
       "actionCount": 34,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 331,
-      "priority": 386,
+      "priority": 387,
       "requirementType": "BuildingCount",
       "requirementId": "portal-mechbay",
       "requirementCount": 35,
@@ -41294,7 +41321,7 @@
     },
     {
       "seq": 387,
-      "priority": 387,
+      "priority": 388,
       "requirementType": "ResearchUnlocked",
       "requirementId": "tech-elerium_cannon",
       "requirementCount": 1,
@@ -41304,8 +41331,8 @@
       "complete": false
     },
     {
-      "seq": 385,
-      "priority": 388,
+      "seq": 389,
+      "priority": 389,
       "requirementType": "ResearchUnlocked",
       "requirementId": "tech-club",
       "requirementCount": 1,
@@ -41315,8 +41342,8 @@
       "complete": true
     },
     {
-      "seq": 389,
-      "priority": 389,
+      "seq": 390,
+      "priority": 390,
       "requirementType": "ResearchUnlocked",
       "requirementId": "tech-club",
       "requirementCount": 1,
@@ -41334,9 +41361,9 @@
   "marketSettingsCollapsed": true,
   "storageSettingsCollapsed": true,
   "productionSettingsCollapsed": false,
-  "warSettingsCollapsed": true,
+  "warSettingsCollapsed": false,
   "hellSettingsCollapsed": true,
-  "fleetSettingsCollapsed": true,
+  "fleetSettingsCollapsed": false,
   "jobSettingsCollapsed": true,
   "buildingSettingsCollapsed": false,
   "projectSettingsCollapsed": true,
@@ -41345,8 +41372,8 @@
   "weightingSettingsCollapsed": false,
   "ejectorSettingsCollapsed": true,
   "planetSettingsCollapsed": true,
-  "mechSettingsCollapsed": true,
-  "magicSettingsCollapsed": true,
+  "mechSettingsCollapsed": false,
+  "magicSettingsCollapsed": false,
   "autoEvolution": true,
   "userUniverseTargetName": "magic",
   "userPlanetTargetName": "weighting",
@@ -41354,9 +41381,9 @@
   "evolutionQueue": [
     {
       "userEvolutionTarget": "custom",
-      "prestigeType": "terraform",
+      "prestigeType": "demonic",
       "challenge_plasmid": false,
-      "challenge_crispr": false,
+      "challenge_crispr": true,
       "challenge_trade": true,
       "challenge_craft": true,
       "challenge_joyless": false,
@@ -41366,7 +41393,76 @@
       "challenge_inflation": false,
       "challenge_sludge": false,
       "challenge_ultra_sludge": false,
-      "challenge_orbit_decay": true,
+      "challenge_orbit_decay": false,
+      "challenge_gravity_well": false,
+      "challenge_junker": false,
+      "challenge_cataclysm": false,
+      "challenge_banana": false,
+      "challenge_truepath": false,
+      "challenge_lone_survivor": false,
+      "challenge_fasting": false
+    },
+    {
+      "userEvolutionTarget": "custom",
+      "prestigeType": "apotheosis",
+      "challenge_plasmid": true,
+      "challenge_crispr": true,
+      "challenge_trade": true,
+      "challenge_craft": true,
+      "challenge_joyless": false,
+      "challenge_steelen": false,
+      "challenge_decay": false,
+      "challenge_emfield": false,
+      "challenge_inflation": false,
+      "challenge_sludge": false,
+      "challenge_ultra_sludge": false,
+      "challenge_orbit_decay": false,
+      "challenge_gravity_well": false,
+      "challenge_junker": false,
+      "challenge_cataclysm": false,
+      "challenge_banana": false,
+      "challenge_truepath": false,
+      "challenge_lone_survivor": false,
+      "challenge_fasting": false
+    },
+    {
+      "userEvolutionTarget": "custom",
+      "prestigeType": "apotheosis",
+      "challenge_plasmid": true,
+      "challenge_crispr": true,
+      "challenge_trade": true,
+      "challenge_craft": true,
+      "challenge_joyless": false,
+      "challenge_steelen": false,
+      "challenge_decay": false,
+      "challenge_emfield": false,
+      "challenge_inflation": false,
+      "challenge_sludge": false,
+      "challenge_ultra_sludge": false,
+      "challenge_orbit_decay": false,
+      "challenge_gravity_well": false,
+      "challenge_junker": false,
+      "challenge_cataclysm": false,
+      "challenge_banana": false,
+      "challenge_truepath": false,
+      "challenge_lone_survivor": false,
+      "challenge_fasting": false
+    },
+    {
+      "userEvolutionTarget": "custom",
+      "prestigeType": "apotheosis",
+      "challenge_plasmid": true,
+      "challenge_crispr": true,
+      "challenge_trade": true,
+      "challenge_craft": true,
+      "challenge_joyless": false,
+      "challenge_steelen": false,
+      "challenge_decay": false,
+      "challenge_emfield": false,
+      "challenge_inflation": false,
+      "challenge_sludge": false,
+      "challenge_ultra_sludge": false,
+      "challenge_orbit_decay": false,
       "challenge_gravity_well": false,
       "challenge_junker": false,
       "challenge_cataclysm": false,
@@ -41380,8 +41476,8 @@
   "evolutionQueueRepeat": true,
   "evolutionAutoUnbound": true,
   "evolutionBackup": false,
-  "challenge_plasmid": false,
-  "challenge_crispr": false,
+  "challenge_plasmid": true,
+  "challenge_crispr": true,
   "challenge_trade": true,
   "challenge_craft": true,
   "challenge_joyless": false,
@@ -43315,7 +43411,7 @@
   "prioritizeOuterFleet": "savereq",
   "buildingAlwaysClick": false,
   "buildingClickPerTick": 10,
-  "prestigeType": "terraform",
+  "prestigeType": "apotheosis",
   "prestigeMADIgnoreArpa": true,
   "prestigeMADWait": false,
   "prestigeMADPopulation": 100,
@@ -43535,7 +43631,7 @@
   "mTrait_w_mastery": 5,
   "triggerSettingsCollapsed": true,
   "autoPrestige": true,
-  "challenge_orbit_decay": true,
+  "challenge_orbit_decay": false,
   "autoGovernment": true,
   "buildingsTransportGem": false,
   "buildingsBestFreighter": true,
@@ -43623,7 +43719,7 @@
   "res_min_storeFood": 1001,
   "res_max_storeFood": -1,
   "slaveIncome": 25000,
-  "traitSettingsCollapsed": false,
+  "traitSettingsCollapsed": true,
   "challenge_lone_survivor": false,
   "fleetExploreTau": false,
   "fleet_outer_def_spc_moon": 0,
