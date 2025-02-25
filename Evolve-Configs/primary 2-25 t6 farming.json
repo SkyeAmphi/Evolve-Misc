@@ -37940,7 +37940,7 @@
       "actionType": "build",
       "actionId": "portal-vault",
       "actionCount": 2,
-      "complete": true
+      "complete": false
     },
     {
       "seq": 80,
@@ -38666,7 +38666,7 @@
       "actionType": "build",
       "actionId": "interstellar-space_elevator",
       "actionCount": 1,
-      "complete": true
+      "complete": false
     },
     {
       "seq": 145,
@@ -38699,7 +38699,7 @@
       "actionType": "build",
       "actionId": "interstellar-gravity_dome",
       "actionCount": 1,
-      "complete": true
+      "complete": false
     },
     {
       "seq": 148,
@@ -38864,7 +38864,7 @@
       "actionType": "research",
       "actionId": "tech-stone_axe",
       "actionCount": 0,
-      "complete": true
+      "complete": false
     },
     {
       "seq": 163,
@@ -40063,7 +40063,7 @@
       "actionType": "build",
       "actionId": "space-space_barracks",
       "actionCount": 24,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 272,
@@ -40602,7 +40602,7 @@
       "actionType": "build",
       "actionId": "space-space_barracks",
       "actionCount": 40,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 321,
@@ -41317,7 +41317,7 @@
       "actionType": "build",
       "actionId": "portal-gun_emplacement",
       "actionCount": 44,
-      "complete": false
+      "complete": true
     },
     {
       "seq": 387,
@@ -43629,7 +43629,7 @@
   "mTrait_mastery": true,
   "mTrait_p_mastery": 13,
   "mTrait_w_mastery": 5,
-  "triggerSettingsCollapsed": true,
+  "triggerSettingsCollapsed": false,
   "autoPrestige": true,
   "challenge_orbit_decay": false,
   "autoGovernment": true,
@@ -43719,7 +43719,7 @@
   "res_min_storeFood": 1001,
   "res_max_storeFood": -1,
   "slaveIncome": 25000,
-  "traitSettingsCollapsed": true,
+  "traitSettingsCollapsed": false,
   "challenge_lone_survivor": false,
   "fleetExploreTau": false,
   "fleet_outer_def_spc_moon": 0,

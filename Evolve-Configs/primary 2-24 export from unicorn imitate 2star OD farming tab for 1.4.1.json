@@ -9283,6 +9283,14 @@
         "arg2": true,
         "cmp": "==",
         "ret": 50
+      },
+      {
+        "type1": "Other",
+        "arg1": "rname",
+        "type2": "String",
+        "arg2": "Godkillers",
+        "cmp": "==",
+        "ret": 10
       }
     ],
     "arpa_m_railway": [
@@ -28803,6 +28811,14 @@
         "arg2": 100,
         "cmp": ">=",
         "ret": 3
+      },
+      {
+        "type1": "ResetType",
+        "arg1": "demonic",
+        "type2": "Universe",
+        "arg2": "micro",
+        "cmp": "AND!",
+        "ret": 0.5
       },
       {
         "type1": "ResetType",
