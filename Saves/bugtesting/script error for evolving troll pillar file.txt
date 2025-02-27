@@ -1,0 +1,191 @@
+TypeError: can't access property "amount", e.resource[j] is undefined in https://pmotschmann.github.io/Evolve/evolve/main.js:718:7834.
+
+Stack info:
+ha/<@https://pmotschmann.github.io/Evolve/evolve/main.js:718:7834
+ha@https://pmotschmann.github.io/Evolve/evolve/main.js:718:7582
+Gi@https://pmotschmann.github.io/Evolve/evolve/main.js:703:15803
+in@https://pmotschmann.github.io/Evolve/evolve/main.js:703:3449
+pe/<@https://pmotschmann.github.io/Evolve/evolve/main.js:715:38697
+dispatch@https://unpkg.com/jquery@3.6.3/dist/jquery.min.js:2:43336
+add/y.handle@https://unpkg.com/jquery@3.6.3/dist/jquery.min.js:2:41320
+
+
+Script version: 3.3.1.140 [Vollch]
+
+
+
+
+
+
+console log:
+
+Uncaught TypeError: can't access property "type", e.civic.govern is undefined
+    gs https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    ui https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+2 main.js:695:134390
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    In https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:695:111170
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+main.js:695:89180
+Uncaught TypeError: can't access property "amount", e.resource[j] is undefined
+    ha https://pmotschmann.github.io/Evolve/evolve/main.js:718
+    ha https://pmotschmann.github.io/Evolve/evolve/main.js:718
+    Gi https://pmotschmann.github.io/Evolve/evolve/main.js:703
+    in https://pmotschmann.github.io/Evolve/evolve/main.js:703
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+13 main.js:718:7834
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    zl https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:695:113406
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+main.js:695:89180
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    zl https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+2 main.js:695:113406
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+2 main.js:695:89180
+Uncaught TypeError: can't access property "unemployed", e.city.morale is undefined
+    <anonymous> https://pmotschmann.github.io/Evolve/evolve/main.js:721
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:721:196611
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+main.js:695:89180
+Uncaught TypeError: can't access property "amount", e.resource[j] is undefined
+    ha https://pmotschmann.github.io/Evolve/evolve/main.js:718
+    ha https://pmotschmann.github.io/Evolve/evolve/main.js:718
+    Gi https://pmotschmann.github.io/Evolve/evolve/main.js:703
+    in https://pmotschmann.github.io/Evolve/evolve/main.js:703
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+35 main.js:718:7834
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    zl https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:695:113406
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+8 main.js:695:89180
+Uncaught TypeError: can't access property "unemployed", e.city.morale is undefined
+    <anonymous> https://pmotschmann.github.io/Evolve/evolve/main.js:721
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+2 main.js:721:196611
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+4 main.js:695:89180
+This site appears to use a scroll-linked positioning effect. This may not work well with asynchronous panning; see https://firefox-source-docs.mozilla.org/performance/scroll-linked_effects.html for further details and to join the discussion on related tools and features! Evolve
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+        each
+        each
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+        dispatch
+        handle
+10 main.js:695:89180
+Uncaught TypeError: can't access property "type", e.civic.govern is undefined
+    gs https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    ui https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+        dispatch
+        handle
+main.js:695:134390
+Uncaught TypeError: can't access property "type", e.civic.govern is undefined
+    gs https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    ui https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:695:134390
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    zl https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:695:113406
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+main.js:695:89180
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    zl https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+main.js:695:113406
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+        each
+        each
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+        dispatch
+        handle
+main.js:695:89180
+Uncaught TypeError: can't access property "diff", e.resource[a] is undefined
+    zl https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+        dispatch
+        handle
+main.js:695:113406
+Uncaught TypeError: can't access property "amount", e.resource[r] is undefined
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+        each
+        each
+    Pe https://pmotschmann.github.io/Evolve/evolve/main.js:695
+    jQuery 2
+        dispatch
+        handle
+main.js:695:89180
+Uncaught TypeError: can't access property "amount", e.resource[j] is undefined
+    ha https://pmotschmann.github.io/Evolve/evolve/main.js:718
+    ha https://pmotschmann.github.io/Evolve/evolve/main.js:718
+    Gi https://pmotschmann.github.io/Evolve/evolve/main.js:703
+    in https://pmotschmann.github.io/Evolve/evolve/main.js:703
+    pe https://pmotschmann.github.io/Evolve/evolve/main.js:715
+    jQuery 2
+        dispatch
+        handle
+10 main.js:718:7834
+Source map error: Error: NetworkError when attempting to fetch resource.
+Resource URL: moz-extension://7f4f2372-2e3d-41b5-80b2-a14280c90d29/userscripts/Evolve-Analytics.user.js?id=387144bb-e266-4505-b39c-9f58faf2db14
+Source Map URL: html-to-image.js.map
+
